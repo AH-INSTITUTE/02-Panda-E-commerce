@@ -1,0 +1,30 @@
+#header{
+    
+}
+.nav-search-icon{
+    position: relative;
+}
+.nav-search-icon input[type="submit"]{
+    float: right;
+    background: url(images/search-icon.jpg) no-repeat;
+    background-size: 20px;
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    text-indent: -9999999px;
+    border: none;
+    top: 8px;
+    right: 15px;
+    cursor: pointer;
+}
+.nav-search-icon .search-box{
+    background-color: #F8F9FB;
+    border-radius: 42px;
+    width: 521px!important;
+}
+.nav-search-icon input:focus{
+    background-color: #F8F9FB;
+}
+.main-nav li a {
+    padding: 0px 16px!important;
+}
